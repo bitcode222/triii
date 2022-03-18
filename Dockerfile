@@ -1,4 +1,4 @@
-FROM python:3.7.6-strech AS BASE
+FROM python:3.7.7-strech AS BASE
 
 RUN apt-get update \
 	&& apt-get --assume yes --no-install-recomends install \
