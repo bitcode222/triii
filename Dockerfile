@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /app
 RUN pip install --no-cache --upgrade pip
 
-RUN pip install rasa==2.8.1
+RUN pip install rasa
 
 ADD credentials.yml credentials.yml
 ADD endpoints.yml endpoints.yml
